@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Bio section */
+#bio {
+    margin: 40px 0;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#bio h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#bio p {
+    font-size: 1.2rem;
+}
+
+/* Social media section */
+#social-media {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#social-media h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
