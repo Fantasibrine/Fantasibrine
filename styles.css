@@ -57,6 +57,7 @@ header h1 {
 #social-media h2 {
     font-size: 2rem;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .social-links a {
